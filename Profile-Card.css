@@ -32,7 +32,35 @@ body{
 
 }
 .p{
-    color: rgba(color #0a0a0a, alpha 0.8)
+    color: rgba(color #0a0a0a, alpha 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.typing{
+    width: 300px;
+    /* white-space:initial; */
+    
+    border-right: 3px solid;
+    font-family: 'Caveat', cursive;
+    font-size: 1.sem;
+    animation: typing 2s steps(29), blink .5s;
+    overflow: hidden;
+    
+
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+        
 }
 
 .image{
