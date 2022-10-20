@@ -58,3 +58,17 @@ body{
     border-radius: 10px;
 }
 
+.social{
+    display: inline;
+    vertical-align:auto;
+    transform: translate(260px, -190px);
+
+}
+
+.so-btn{
+    color: #09000b;
+    width: 30px;
+    
+}
+
+
